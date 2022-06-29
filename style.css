@@ -4,45 +4,40 @@ padding:1px 0;
 
 #init {
 text-align:center;
-background-color:#7FFFD4; 
+text-underline-color:#111
+background-color:#333;
 }
 
 #main {
-max-with:960px;
 margin:auto;
 }
 
-#menu {
-float:left;
-width:240px;
-background-color:#7FFFD4; 
-}
 
-#menu ul{
-list-style: none;
-}
-
-#menu li{
-padding-top: 0.7em; 
-/* padding-bottom: 1em; */
-}
+/**/
+/*#menu ul{*/
+/*list-style: none;*/
+/*}*/
+/**/
+/*#menu li{*/
+/*padding-top: 0.7em; */
+/*/* padding-bottom: 1em; */*/
+/*}*/
 
 .adressFormat ul{ list-style: none;}
 .adressFormat li{ padding-top: 0.1em;}
 
 
-#menu a{
-color: black;
-text-decoration:none
-}
-
-#menu a:hover {
-text-decoration:none;
-background-color:#E0FFFF;
-}
+/*#menu a{*/
+/*color: black;*/
+/*text-decoration:none*/
+/*}*/
+/**/
+/*#menu a:hover {*/
+/*text-decoration:none;*/
+/*background-color:#E0FFFF;*/
+/*}*/
 
 #content {
-margin-left:245px;
 padding-left:10px ;
 padding-right:50px ;
 }
@@ -50,7 +45,7 @@ padding-right:50px ;
 
 body
 {    
-	font-family: Georgia, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: large;
 	background-color: #E0FFFF;
 }
@@ -68,8 +63,8 @@ h3{
 }
 
 li{
-padding-top: 0.5em; 
-/* padding-bottom: 1em; */
+padding-top: 0em;
+padding-bottom: 0em;
 }
 
 p
@@ -87,4 +82,45 @@ text-decoration:none
 {
 text-decoration:none;
 background-color:#E0FFFF;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  float:center;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: #111;
+}
+
+#menu-right {
+  float: right;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+.navbar-toggle {
+    z-index:3;
 }
