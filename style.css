@@ -38,7 +38,7 @@ text-decoration:none
 
 #menu a:hover {
 text-decoration:none;
-background-color:#BA55D3;
+background-color:#E0FFFF;
 }
 
 #content {
@@ -52,7 +52,7 @@ body
 {    
 	font-family: Georgia, sans-serif;
 	font-size: large;
-	background-color: #FFFAF0;
+	background-color: #E0FFFF;
 }
 
 h1{
@@ -79,12 +79,12 @@ p
 
 #content a
 {
-color: #8B008B;
+color: #E0FFFF;
 text-decoration:none	
 }
 
 #content a:hover
 {
 text-decoration:none;
-background-color:#F5DEB3;
+background-color:#E0FFFF;
 }
